@@ -38,16 +38,24 @@
 }
 .nav_link.lg {
   color: #393c41;
-  font-weight: 100;
+  font-weight: 120;
   font-size: 1.2rem;
   text-transform: capitalize;
   position: relative;
 }
 
+.nav_link p{
+ font-size: 12px;
+ margin-left: 15px;
+ margin-top: 5px;
+}
+.nav_link p:hover{
+  text-decoration-line: underline;
+}
 .nav_link {
   color: #393c41;
   font-weight: 600;
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   text-transform: capitalize;
 }
 .navigation ul li:hover {
@@ -80,3 +88,4 @@
 .blur_overlay.is--active {
   display: block;
 }
+

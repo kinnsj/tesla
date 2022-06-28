@@ -33,9 +33,9 @@
 .header_nav_btn {
   display: none;
   font-size: 1.4rem;
-  font-weight: bold;
+  font-weight: 600;
   padding: 1rem;
-  color: var(--secondary-color);
+  color: black;
   border-radius: 1.5rem;
   text-transform: capitalize;
   transition: background 0.3s linear;

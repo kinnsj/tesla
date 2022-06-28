@@ -49,7 +49,7 @@
 }
 
 .section_content_subtitle {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   font-weight: 500;
   animation: slideInFromTop 2.5s ease-out;
 }
@@ -79,10 +79,10 @@
 .section_action_btn {
   font-size: 1.5rem;
   font-weight: 500;
-  padding: 1rem;
+  padding: 0.5rem;
   border-radius: 2rem;
   flex-basis: 80%;
-  margin-bottom: 1rem;
+  margin-bottom: -3rem;
   text-transform: capitalize;
 }
 
@@ -99,7 +99,7 @@
   animation: slideInFromRight 2.5s ease-out;
 }
 
- .action_btn_secondary.section.two {
+ .action_btn_secondary .two {
   background: rgba(23, 26, 42, 0.8);
   color: var(--primary-color);
 }
@@ -131,7 +131,7 @@
 @keyframes slideInFromTop {
   0% {
     opacity: 0;
-    transform: translateY(-50%);
+    transform: translateY(-100%);
   }
 
   100% {
@@ -142,7 +142,7 @@
 @keyframes slideInFromBottom {
   0% {
     opacity: 0;
-    transform: translateY(100%);
+    transform: translateY(-100%);
   }
 
   100% {
