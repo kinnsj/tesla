@@ -39,6 +39,7 @@
   border-radius: 1.5rem;
   text-transform: capitalize;
   transition: background 0.3s linear;
+  
 }
 
 .header_nav_btn:hover {

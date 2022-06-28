@@ -11,7 +11,8 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
- 
+ font-size: 150%;
+ opacity: 70%;
 }
 
 .footer ul li {
@@ -31,5 +32,7 @@
   text-align: center;
   color: white;
   width: 10;
+  line-height: 170%;
+  opacity: 90%;
 }
 

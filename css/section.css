@@ -38,7 +38,7 @@
   text-align: center;
   text-transform: capitalize;
   color: var(--primary-color);
-  animation: slideInFromTop 1.5s ease-out;
+  animation: slideInFromTop 1.0s ease-out;
  
 }
 
@@ -77,12 +77,12 @@
 }
 
 .section_action_btn {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-weight: 500;
   padding: 0.5rem;
   border-radius: 2rem;
   flex-basis: 80%;
-  margin-bottom: -3rem;
+  margin-bottom: 0rem;
   text-transform: capitalize;
 }
 
@@ -131,7 +131,7 @@
 @keyframes slideInFromTop {
   0% {
     opacity: 0;
-    transform: translateY(-100%);
+    transform: translateY(50%);
   }
 
   100% {
