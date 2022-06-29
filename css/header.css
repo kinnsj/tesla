@@ -7,11 +7,13 @@
   z-index: 5;
   display: flex;
   justify-content: space-between;
+  animation: slideInFromHd 2.5s;
 }
 
 .header_middle {
   display: flex;
   align-items: center;
+  
 }
 
 .header_left {
@@ -53,3 +55,4 @@
 .header_middle .header_nav_btn {
   margin-right: 2rem;
 }
+
