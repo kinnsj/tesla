@@ -17,11 +17,11 @@
 
 @media screen and (min-width: 900px) {
 	.section_action_container {
-		width: 70%;
+		width: 50%;
 	}
 
 	.footer ul {
-		width: 70%;
+		width: 50%;
 	}
 }
 
@@ -44,20 +44,20 @@
 	}
 
 	.section_action_container {
-		width: 60%;
+		width: 40%;
 	}
 
 	.footer ul {
-		width: 50%;
+		width: 40%;
 	}
 }
 
 @media screen and (min-width: 1600px) {
 	.footer ul {
-		width: 40%;
+		width: 20%;
 	}
 
 	.section_action_container {
-		width: 50%;
+		width: 30%;
 	}
 }

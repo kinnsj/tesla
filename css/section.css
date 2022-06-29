@@ -51,12 +51,12 @@
 .section_content_subtitle {
   font-size: 1.4rem;
   font-weight: 500;
-  animation: slideInFromTop 2.5s ease-out;
+  animation: slideInFromTop 2s ease-out;
 }
 
 .section_content_subtitle a {
   color: inherit;
-  animation: slideInFromBottom 2.5s ease-out;
+  animation: slideInFromBottom 2s ease-out;
   text-decoration: underline;
 }
 
@@ -69,7 +69,7 @@
   bottom: 15%;
   left: 50%;
   transform: translateX(-50%);
-  width: 100%;
+  width: 10%;
   text-align: center;
   display: flex;
   flex-wrap: wrap;
@@ -89,14 +89,14 @@
 .action_btn_primary {
   background: rgba(23, 26, 42, 0.8);
   color: white;
-  animation: slideInFromLeft 2.5s ease-out;
+  animation: slideInFromLeft 2s ease-out;
  
 }
 
 .action_btn_secondary {
   background: rgba(255, 255, 255, 0.65);
   color: var(--primary-color);
-  animation: slideInFromRight 2.5s ease-out;
+  animation: slideInFromRight 2s ease-out;
 }
 
  .action_btn_secondary .two {
@@ -108,7 +108,7 @@
 @keyframes slideInFromLeft {
   0% {
     opacity: 0;
-    transform: translateX(-50%);
+    transform: translateX(-40%);
   }
 
   100% {
@@ -120,7 +120,7 @@
   
   0% {
     opacity: 0;
-    transform: translateX(50%);
+    transform: translateX(40%);
   }
 
   100% {
